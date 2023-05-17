@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.fixed-top{
+    padding-bottom: 0px;
+    background-color: white;
+}
+.navbar-nav{
+    font-size: 0.9rem;
+    margin: 0px;
+    padding: 0.6rem;
+}
+
+.card{
+    border-radius: 0;
+    border:none;
+}
+header {
+  font-size: calc(0.3rem + 3.3vw);
+  display: flex;
+  flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 75rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+
+@media (min-width: 20rem) {
+  header {
+    font-size: 1.3rem;
+    background-color: inherit;
+  }
+}
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.nav{
+    letter-spacing: 1.4px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.cd2txt{
+    background-color: #fff;
+    top: 13%;
+    color: #000000;
+    display: unset;
+    font-family: SaolDisplay,Georgia,Times,serif;
+    font-weight: normal;
+    position: absolute;
+    text-align: left;
+    margin-left: 15px;
+    border-radius: 0;
+    padding: 1.025rem;
+}
+
+.sec-2{
+    margin-top: -76rem;
+}
+
+@media (max-width: 1200px){
+.cd2txt {
+    font-size: 2.8125rem;
+    line-height: 1.1;
+    margin-top: -0.25rem;
+    padding: 0.875rem 1.875rem 0.25rem;
+}
+.sec-2{
+    margin-top: -59rem;
+}
+}
+.fashion-culture{
+    border-top: 0.125rem solid rgba(0, 0, 0, 0.1);
+}
+@media(min-width:1440px){
+    .sec-2{
+        margin-top: -85rem;
+    }
+    .cd2txt{
+        top: 14%;
+    }
+}
+
+.card-title{
+    text-align: center;
+    color: gray;
+    font-family: SaolText,Georgia,Times,serif;
+}
+@media (max-width: 992px){
+
+    .cd2txt{
+        top: 18%;
+    }
+    .sec-2{
+        margin-top: -47.4rem;
+    }
+    .gng {
+    margin-top: 71px;
+}
+}
+
+@media(max-width:620px){
+    .cd2txt{
+        top: 34%;
+    }
+}
+@media(min-width:360px) and (max-width:767px){
+    .sec-2{
+        margin-top: -19.5rem;
+    }
+    .griddy img{
+        width: 180px;
+    }
+}
+
+@media (min-width:40.625rem){
+    .cd4txt h2{
+        font-size: 2.125rem;
+    line-height: 1.2;
+    }
+}
+
+
+.gng img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main{
+    position: relative;
+}
+.mesthead {
+    display: grid;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.cd1txt{
+    bottom: initial;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0 0.938rem;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.fashion-culture{
+    grid-area: header;
+    position: relative;
+    text-align: center;
+}
+.container-fluid{
+    grid-area: content;
+    position: relative;
+}
+.sec-2{
+    font-size: 2rem;
+}
+.sec-2 h1{
+    font-family: SaolText,Georgia,Times,serif;
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+.sec-3 h1{
+    
+    font-family: SaolText,Georgia,Times,serif;
+}
+.sec-4{
+    padding: 0 0.938rem 1.25rem 0.938rem;
+}
+@media (min-width: 48rem){
+.griddy {
+    display: grid;
+    grid-column-gap: 1.25rem;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+.sec-4 {
+    padding: 0 2.5rem 1.875rem 2.5rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem;
+}
+}
+#cd1{
+    margin-bottom: 20px;
+}
+.pic {
+    display: block;
+    left: -0.938rem;
+    margin-bottom: 0;
+    position: relative;
+    width: 100vw;
+}
+@media (min-width: 40.625rem){
+    .griddy h2{
+        font-size: 0.93rem;
+        padding-right: 2rem;
+    }
+.pic {
+    width: 100%;
+    left: 0rem;
+}
+}
+@media(max-width:48rem){
+    .cd6text{
+    border-top: 0.125rem solid rgba(0, 0, 0, 0.1);
+    margin-top: 0.625rem;
+    padding: 2.3125rem 0 0.625rem;
+}
+.cd6text h1{
+       font-size: 4.375rem;
+}
+.cd3txt {
+    font-size: 4.375rem;
+}
+.fashion-culture{
+    border-top: 0.125rem solid rgba(0, 0, 0, 0.1);
+    margin-top: 0.625rem;
+    padding: 2.3125rem 0 0.625rem;
+}
+}
+
+.jw {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 0.9375rem;
+    align-items: center;
+    width: 100%;
+}
+
+.griddy h2{
+    display: block;
+    color: gray;
+    font-family: SaolText,Georgia,Times,serif;
+    font-weight: normal;
+    margin-bottom: 0.3125rem;
+    margin-top: 0;
+
+}
+.griddy{
+    grid-area: content;
+    position: relative;
+}
+
+.sec-3{
+    padding: 0 0.938rem 1.25rem 0.938rem;
+}
+@media (min-width: 61.25rem){
+.sec-3 {
+    display: grid;
+    grid-gap: 1.25rem;
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
+    grid-template-areas:
+        "header"
+        "content";
+    grid-template-columns: minmax(auto, 75rem);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+@media (min-width: 73.75rem){
+.sec-3 {
+    grid-column-gap: 0rem;
+    grid-template-areas:
+        "lgut header rgut"
+        "lgut content rgut";
+    grid-template-columns: 1fr minmax(auto, 75rem) 1fr;
+}
+.cd6text{
+    margin-bottom: 0.625rem;
+}
+}
+}
+
+
+.cd8txt{
+    grid-area: header;
+    position: relative;
+    text-align: center;
+}
+.cd8txt h1{
+    font-family: SaolText,Georgia,Times,serif;
+}
+@media (min-width: 20rem) and (max-width: 61.25rem){
+.sec-4 {
+    overflow: hidden;
+}
+}
+@media (max-width: 48rem){
+.sec-4 {
+    padding-top: 0;
+}
+}
+.pic img{
+    color: transparent;
+    width: 100%;
+    height: auto;
+}
+
+.street-style{
+    text-decoration: none;
+    display: block;
+    grid-area: content;
+    position: relative;
+}
+
+.griddy img{
+    width: 100%;
+    color: transparent;
+    height: auto;
+    margin-bottom: 0.8rem;
+}
+@media (min-width: 64rem){
+.sec-3 {
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+    padding-top: 1.25rem;
+}
+.sec-4{
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+    padding-top: 1.25rem;
+}
+}
+@media (min-width: 48rem){
+.sec-3{
+   padding: 0 2.5rem 1.875rem 2.5rem;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem;
+}
+}
+.cd6text{
+    grid-area: header;
+    position: relative;
+    text-align: center;
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    font-family: NeueHaasUnica,Arial,sans-serif;
+    font-size: 0.70003rem;
+    letter-spacing: 0.08rem;
+    line-height: 1.4;
+    padding-bottom: 1.875rem;
+    padding-top: 1.875rem;
+    position: relative;
+    text-transform: uppercase;
+}
+footer .nav-link{
+    line-height: 0;
+}
+.single-box p{
+    color: #fff;
+    line-height: 1.9;
+}
+.single-box h3{
+    font-size: 1rem;
+}
+.single-box-1 img{
+    margin-bottom: 20px;
+    width: 270px;
+    height: auto;
+}
+.single-box-1{
+    margin-bottom: 30px;
+    border-bottom:0.7px solid white;
+}
+.nav-link{
+    margin-bottom: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.socials{
+    align-items: center;
+    display: grid;
+    grid-auto-columns: minmax(3rem, 3rem);
+    grid-auto-flow: column;
+    margin-left: 0rem;
+}
+.navbar-nav{
+    line-height: 2rem;
+}
+.cd7txt h2{
+    margin-top: 20px;
+    font-family: SaolText,Georgia,Times,serif;
+    text-align: center;
+}
+.sec-4{
+    padding: 0 0.938rem 1.25rem 0.938rem;
+}
+.Subscribe input{
+width: auto;
+box-sizing: border-box;
+}
+@media (min-width: 769px){
+.Subscribe{
+    max-width: 536px;
+
+    margin-right: auto;
+}
+@media screen and (min-width:768px){
+    .Subscribe{
+        max-width: 536px;
+        margin-right: auto;
+    }
+}
+}
+.btn-dark{
+    border-radius: 0;
+}
+ 
+}
+.navbar-brand{
+    font-size: 10vh;
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Content</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="text/css" href="Images/fbcon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="content-style.css">
+</head>
+<body>
+	<header class="py-3 mb-0 border-bottom ">
+		<nav class="fixed-top">
+			<div class="container-fluid">
+				<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          			<div class="offcanvas-header">
+          				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  							</div>
+          			<div class="offcanvas-body">
+          				<form class="d-flex" role="search">
+        					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        					<button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      					</form>
+            		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  								<li class="nav-item">
+    								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+  								</li>
+  								<li class="nav-item">
+    								<a class="nav-link" href="About us.html">About Us</a>
+  								</li>
+  								<li class="nav-item">
+   									<a class="nav-link" href="contact.html">Contact Us</a>
+  								</li>
+  								<li class="nav-item">
+    								<a class="nav-link" href="login_page.html">Sign in</a>
+  								</li>
+  							</ul>
+		  				</div>
+          </div>
+
+        	<div class="container d-flex flex-wrap justify-content-start">
+        		<button class="btn btn-tertiary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+      			  	<i class="fa-solid fa-bars fa-lg"></i>
+      			</button>
+        		<a class="navbar-brand nav-link d-flex align-items-center mb-3 mb-lg-0 me-lg-auto "><img src="Images/logo.png" width="270px"></a>
+        		<div class=" nav-scroller py-1 mb-2">
+        			<ul class="nav">
+        				<li class="nav-item">
+        					<a class="nav-link link-dark nav-scroller-item" href="content_F.html">Fashion Culture</a>
+        				</li>
+        				<li class="nav-item">
+        					<a class="nav-link link-dark" href="#content">Celebrity Style</a>
+        				</li>
+        				<li class="nav-item">
+        					<a class="nav-link link-dark" href="#content">Street Style</a>
+        				</li>
+        				<li class="nav-item">
+        					<a class="nav-link link-dark" href="purchase.html">Buy this Issue</a>
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+</nav>
+        </header>
+
+        <section >
+  <div id="carouselExampleCaptions" class="carousel slide carousel=fade" data-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner ">
+    <div class="carousel-item mt-md-5 active">
+        <picture>
+            <source srcset="Images/burmese_clothing1.png" media="(min-width: 40.625rem)">
+      <img src="Images/burmese_clothing2.png" class="d-block w-100 " alt="img">
+  </picture>
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+    <div class="carousel-item mt-md-5">
+        <picture>
+            <source srcset="Images/kk.jpg" media="(min-width: 40.625rem)">
+            
+      <img src="Images/krean.jpg" class="d-block w-100  " alt="img">
+  </picture>
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+    <div class="carousel-item mt-md-5">
+        <picture>
+            <source srcset="Images/32584816850.png" media="(min-width: 40.625rem)">
+            <source srcset="Images/jpn2.png" media="(max-width:48rem)">
+            
+      <img src="Images/jpn2.png" class="d-block w-100 " alt="img">
+  </picture>
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </section>
+</br>
+
+      <hr class="featurette-divider">
+    <div class="container">
+     <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Myanmar</h2>
+        <p class="lead">The Burmese have been wearing their traditional clothing for centuries, with the design being influenced by those in power and adorned with jewelry. Women wore decorated blouses, head ornaments, felt footwear, and a htamein, while men wore a turban, hnyat-phanat slippers, a silk jacket embroidered with fur, and a cotton shirt. When Indian immigrants arrived, the traditional clothing was influenced slightly. Even today, the traditional costumes of Myanmar are worn and consist of two sets for both men and women.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://media.discordapp.net/attachments/1042442855425257516/1105153085107601429/myanmar.jpg?width=466&height=655" alt="img" class="myanmar">
+      </div> 
+      <!-- <h1 class="mm">Myanmar</h1>
+      <img src="image/myanmarculture.jpg"> -->
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Korean</h2>
+        <p class="lead">The hanbok is a traditional attire in South Korea that is worn during formal or semi-formal occasions. It is composed of a wrapped front top and a high-waisted skirt, typically in bright colors. Its design has remained unchanged since the Goguryeo Kingdom era and its colors are linked to yin and yang and social and marital status. The modernized versions of hanbok have gained popularity in fashion shows worldwide, and the Korean government established Hanbok Day in 1996.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+
+       <img src="Images/korean.jpg" alt="img" class="korean">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Japan</h2>
+        <p class="lead">The kimono is a traditional outfit in Japan that was first worn by noblewomen during the Heian period. It became popular among all people during the Edo period but was slowly replaced by Western clothing during the Meiji era. Nowadays, it is mostly used for special events like weddings or funerals. There are various types of kimonos, including the casual yukata and the formal furisode.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://media.discordapp.net/attachments/1042442855425257516/1105153084444917820/japan.jpg?width=454&height=655" alt="img" class="japan">
+      </div>
+    </div>
+
+  </div>
+  <hr class="featurette-divider">
+            <div class="sec-3" id="content">
+                <div class="griddy">
+                    <div>
+                        <div>
+                            <h2 class="celeb-style"><span>Celebrity style</span></h2>
+                        </div>
+                        <a href="" class="jw"><img src="https://hips.hearstapps.com/hmg-prod/images/1-calz…89.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=360:*" srcset="https://hips.hearstapps.com/hmg-prod/images/1-calzedonia-celebs-collage-6452c17a08489.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=90:* 640w, https://hips.hearstapps.com/hmg-prod/images/1-calzedonia-celebs-collage-6452c17a08489.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=180:* 980w, https://hips.hearstapps.com/hmg-prod/images/1-calzedonia-celebs-collage-6452c17a08489.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=270:* 1120w, https://hips.hearstapps.com/hmg-prod/images/1-calzedonia-celebs-collage-6452c17a08489.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=360:* 1200w, https://hips.hearstapps.com/hmg-prod/images/1-calzedonia-celebs-collage-6452c17a08489.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=360:* 1920w">
+                            <div class="cd4txt">
+                                <span><h2>Are Celebrity Actually wearing $10 Tights?</h2></span>
+                            </div>
+                        </a>
+                        <div>
+                                <a href="https://www.elle.com/fashion/celebrity-style/g43757734/met-gala-2023-best-dressed/" class="jw"><img src="" srcset="https://hips.hearstapps.com/hmg-prod/images/emily-ratajkowski-attends-the-2023-met-gala-celebrating-news-photo-1682980730.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=90:* 640w, https://hips.hearstapps.com/hmg-prod/images/emily-ratajkowski-attends-the-2023-met-gala-celebrating-news-photo-1682980730.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=180:* 980w, https://hips.hearstapps.com/hmg-prod/images/emily-ratajkowski-attends-the-2023-met-gala-celebrating-news-photo-1682980730.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=270:* 1120w, https://hips.hearstapps.com/hmg-prod/images/emily-ratajkowski-attends-the-2023-met-gala-celebrating-news-photo-1682980730.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=360:* 1200w, https://hips.hearstapps.com/hmg-prod/images/emily-ratajkowski-attends-the-2023-met-gala-celebrating-news-photo-1682980730.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=360:* 1920w">
+                                <div class="cd4txt">
+                                        <span><h2>The Best-Dressed Stars at the 2023 Met Gala</h2></span>
+                                </div>
+                                </a>
+                        </div>
+                        <div>
+                                <a href="https://www.elle.com/fashion/celebrity-style/g43723648/crazy-celebrity-outfits/" class="jw"><img src="" srcset="https://hips.hearstapps.com/hmg-prod/images/hbz-kim-kardashian-rihanna-bjork-index-1534179054.jpg?crop=0.503xw:1.00xh;0.0817xw,0&resize=90:* 640w, https://hips.hearstapps.com/hmg-prod/images/hbz-kim-kardashian-rihanna-bjork-index-1534179054.jpg?crop=0.503xw:1.00xh;0.0817xw,0&resize=180:* 980w, https://hips.hearstapps.com/hmg-prod/images/hbz-kim-kardashian-rihanna-bjork-index-1534179054.jpg?crop=0.503xw:1.00xh;0.0817xw,0&resize=270:* 1120w, https://hips.hearstapps.com/hmg-prod/images/hbz-kim-kardashian-rihanna-bjork-index-1534179054.jpg?crop=0.503xw:1.00xh;0.0817xw,0&resize=360:* 1200w, https://hips.hearstapps.com/hmg-prod/images/hbz-kim-kardashian-rihanna-bjork-index-1534179054.jpg?crop=0.503xw:1.00xh;0.0817xw,0&resize=360:* 1920w">
+                                <div class="cd4txt">
+                                        <span><h2>47 Crazy Celebrity Outfits We'll Never Forget</h2></span>
+                                </div>
+                                </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h2 class="celeb-style"><span>Street style</span></h2>
+                        </div>
+
+                        <div>
+                        <a href="https://www.elle.com/fashion/street-style/g41157924/new-york-fashion-week-street-style-spring-summer-2023/" class="jw"><img src="" sizes="100vw" srcset="https://hips.hearstapps.com/hmg-prod/images/nyfw-ss23-tyler-joe-day-5-0078-1663212826.jpg?crop=1.00xw:0.668xh;0,0&resize=90:* 640w, https://hips.hearstapps.com/hmg-prod/images/nyfw-ss23-tyler-joe-day-5-0078-1663212826.jpg?crop=1.00xw:0.668xh;0,0&resize=180:* 980w, https://hips.hearstapps.com/hmg-prod/images/nyfw-ss23-tyler-joe-day-5-0078-1663212826.jpg?crop=1.00xw:0.668xh;0,0&resize=270:* 1120w, https://hips.hearstapps.com/hmg-prod/images/nyfw-ss23-tyler-joe-day-5-0078-1663212826.jpg?crop=1.00xw:0.668xh;0,0&resize=360:* 1200w, https://hips.hearstapps.com/hmg-prod/images/nyfw-ss23-tyler-joe-day-5-0078-1663212826.jpg?crop=1.00xw:0.668xh;0,0&resize=360:* 1920w">
+                        <div class="cd4txt">
+                        <span><h2>The Best Street Style at New York Fashion Week</h2></span>
+                        </div>
+                        </a>
+                         <a href="https://www.elle.com/fashion/street-style/g41391783/best-street-style-milan-fashion-week-spring-2023/" class="jw"><img src="" sizes="100vw" srcset="https://hips.hearstapps.com/hmg-prod/images/mfw-ss23-tyler-joe-0342-1664208747.jpg?crop=1.00xw:0.668xh;0,0&resize=90:* 640w, https://hips.hearstapps.com/hmg-prod/images/mfw-ss23-tyler-joe-0342-1664208747.jpg?crop=1.00xw:0.668xh;0,0&resize=180:* 980w, https://hips.hearstapps.com/hmg-prod/images/mfw-ss23-tyler-joe-0342-1664208747.jpg?crop=1.00xw:0.668xh;0,0&resize=270:* 1120w, https://hips.hearstapps.com/hmg-prod/images/mfw-ss23-tyler-joe-0342-1664208747.jpg?crop=1.00xw:0.668xh;0,0&resize=360:* 1200w, https://hips.hearstapps.com/hmg-prod/images/mfw-ss23-tyler-joe-0342-1664208747.jpg?crop=1.00xw:0.668xh;0,0&resize=360:* 1920w">
+                        <div class="cd4txt">
+                        <span><h2>The Best Street Street Style From MFW</h2></span>
+                        </div>
+                        </a>
+                         <a href="" class="jw"><img src="" sizes="100vw" srcset="https://hips.hearstapps.com/hmg-prod/images/dwh-hb-cphfw-ss23-142-1660229467.jpg?crop=1.00xw:0.670xh;0,0.0391xh&resize=90:* 640w, https://hips.hearstapps.com/hmg-prod/images/dwh-hb-cphfw-ss23-142-1660229467.jpg?crop=1.00xw:0.670xh;0,0.0391xh&resize=180:* 980w, https://hips.hearstapps.com/hmg-prod/images/dwh-hb-cphfw-ss23-142-1660229467.jpg?crop=1.00xw:0.670xh;0,0.0391xh&resize=270:* 1120w, https://hips.hearstapps.com/hmg-prod/images/dwh-hb-cphfw-ss23-142-1660229467.jpg?crop=1.00xw:0.670xh;0,0.0391xh&resize=360:* 1200w, https://hips.hearstapps.com/hmg-prod/images/dwh-hb-cphfw-ss23-142-1660229467.jpg?crop=1.00xw:0.670xh;0,0.0391xh&resize=360:* 1920w">
+                        <div class="cd4txt">
+                        <span><h2>The Best Street Style at Copenhagen Fashion Week</h2></span>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+
+                    
+                    <div>
+                        <div>
+                            <h2 class="celeb-style"><span>Culture</span></h2>
+                        </div>
+                        <a href="https://www.tsunagujapan.com/10-different-types-of-kimono-for-women/" class="jw"><img src="Images/jpnkimono.jpg" sizes="100vw" srcset="">
+                        <div class="cd4txt">
+                        <span><h2>13 Different Types of Kimono for Women</h2></span>
+                        </div>
+                        </a>
+                         <a href="https://www.anothermag.com/fashion-beauty/14380/how-korean-fashion-and-culture-took-over-the-world-hallyu-the-korean-wave" class="jw"><img src="Images/k1.jpg" sizes="100vw" >
+                        <div class="cd4txt">
+                        <span><h2>How Korean Fashion and Culture Took over the World</h2></span>
+                        </div>
+                        </a>
+                         <a href="https://www.myanmore.com/2022/08/elegance-is-timeless-willow-clothing/" class="jw"><img src="https://wpengine-myanmore.s3.amazonaws.com/uploads/2022/08/INF05141-edited-150x150.jpg">
+                        <div class="cd4txt">
+                        <span><h2>Elegance is Timeless: Willow Clothing</h2></span>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+  <footer>
+         <div class="container">
+                     <div class="single-box-1">
+                         <img src="Images/logo2.png">
+                     </div>
+             <div class="row ">
+                 <div class="col">
+                     <h3>Follow Us</h3>
+                     <p class="socials">
+                         <i class="fa-brands fa-facebook"></i>
+                         <i class="fa-brands fa-twitter"></i>
+                         <i class="fa-brands fa-instagram"></i>
+                     </p>
+                     <div class="single-box">
+                         <ul class="navbar-nav">
+                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                             <li class="nav-item"><a class="nav-link" href="About us.html">About Us</a></li>
+                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                             <li class="nav-item"><a class="nav-link" href="login_page.html">Sign in</a></li>
+                             <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/1x0ze_cW8qzlxheVx92UjnpsNPHNbdH1LcIUoAlQ4GgA/edit">Citation</a></li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="col">
+                     <h3>Subscribe</h3>
+                     <form>
+                         <div class="Subscribe">
+                             <label class="form-label" >Email</label>
+                             <input type="email" class="form-control" placeholder="Example@gmail.com">
+                         </div>
+
+                         <button class="btn mt-2 btn-dark">SUBMIT</button>
+
+                     </form>
+                 </div>
+                 <span>&copy;Copyright All rights reserved</span>
+             </div>
+
+         </div>
+     </footer>  
+
+</body>
+</html>
